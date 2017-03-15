@@ -108,14 +108,29 @@
 	display: inline-block;
 	padding: 50px;
 	color: #fff;
-	text-transform: uppercase;
 	font-family: 'Josefin Sans', sans-serif;
-	background-color: rgba(254,202,22,0.88);
 	position: relative;
 	top: 0;
 	bottom: auto;
 	z-index: 13;
 }
+
+.bgc_card_ll {
+    	background-color: rgba(91, 185, 235, 0.88);
+    }
+
+.bgc_card_o {
+    	background-color: rgba(201, 199, 139, 0.88);
+    }
+
+.bgc_card_f {
+    	background-color: rgba(83, 145, 168, 0.88);
+    }
+
+.bgc_card_bt {
+    	background-color: rgba(232, 232, 80, 0.88);
+    }''
+
 .slider-content-box::before {
 	position: absolute;
 	content: "";
@@ -133,18 +148,18 @@
 	right: 10px;
 	top: 10px;
 	bottom: 10px;
-	border: 1px solid #fff;
+	border: 0px solid #fff;
 }
 .slider-content-box .slider-title {
 	position: relative;
 	z-index: 2;
-	margin: 0 0 24px;
-    padding-bottom: 34px;
-	font-size: 22px;
-	letter-spacing: 1.1px;
+	margin: 0 0 0px;
+    padding-bottom: 0px;
+	font-size: 28px;
+	letter-spacing: 1px;
 	line-height: 32px;
 	font-weight: 700;
-	padding-right: 30px;	
+	padding-right: 0px;	
 }
 .slider-content-box .slider-title::after {
 	position: absolute;
@@ -152,8 +167,8 @@
 	left: 0;
 	bottom: 0;
 	background-color: #fff;
-	width: 55px;
-	height: 2px;
+	width: 0px;
+	height: 0px;
 }
 .slider-content-box  span {
 	letter-spacing: 0.9px;
@@ -278,7 +293,7 @@
 }
 .howwecan-left .img-box {
 	float:left;
-	margin:0.5%;
+	margin:0%;
 }
 .howwecan-left .img-box:nth-child(2n+1) {	
 	clear: both;
@@ -290,16 +305,17 @@
 }
 .howwecan-right .nav {
 	margin-bottom: 35px;
+    
 }
 .howwecan-right .nav-tabs { 
 	border: none;
 	margin-top: 28px;
 }
 .howwecan-right .nav-tabs > li:hover {
-	border-color: #feca16;
+	border-color: #3c91f5;
 }
 .howwecan-right .nav-tabs > li:hover span {
-	color: #feca16;
+	color: #3c91f5;
 }
 .howwecan-right .nav-tabs > li > a {
 	border: 1px solid #dfdfdf;
@@ -325,14 +341,14 @@
 .howwecan-right .nav > li > a:focus,
 .howwecan-right .nav > li > a:hover {
 	background-color: transparent;
-	border-color: #feca16;	
+	border-color: #3c91f5;	
 }
 .howwecan-right .nav-tabs > li.active > a,
 .howwecan-right .nav-tabs > li.active > a:focus, 
 .howwecan-right .nav-tabs > li.active > a:hover {
-	border: 1px solid #feca16;
+	border: 1px solid #3c91f5;
 	background-color: transparent !important;
-	color: #feca16;
+	color: #3c91f5;
 }
 .howwecan-right .tab-content {
 	margin-right: 100px;
@@ -355,7 +371,7 @@
 	letter-spacing: 0.45px;
 }
 .howwecan-right .tab-content .tab-pane a {
-	background-color: #feca16;
+	background-color: #3c91f5;
     color: #fff;   
 	display: inline-block;
     font-family: "Raleway",sans-serif;
@@ -427,10 +443,10 @@
 	height: 71px;
 	width: 71px;
 	text-align: center;
-	border: 2px solid #feca16;
+	border: 2px solid #3c91f5;
 	line-height: 65px;
 	font-size: 30px;
-	color: #feca16;
+	color: #3c91f5;
 	position: absolute;
 	left: 0;
 	top: 5px;
@@ -456,6 +472,7 @@
 	-webkit-transition: all 1s ease 0s;
 	-moz-transition: all 1s ease 0s;
 	-o-transition: all 1s ease 0s;
+    min-height: 540px;
 }
 .introduction-block:hover {
 	opacity: 0.9;
@@ -517,7 +534,7 @@
 	left: 0;
 	bottom: 0;
 	width: 35px;
-	background-color: #feca16;
+	background-color: #3c91f5;
 	height: 2px;	
 }
 .introduction-block span {
@@ -525,7 +542,7 @@
 	width: 50px;
 	text-align: center;
 	color: #fff;
-	background-color: #feca16;
+	background-color: #3c91f5;
 	display: inline-block;
 	font-size: 26px;
 	padding: 10px;
@@ -568,13 +585,13 @@
 	-o-transition: all 1s ease 0s;
 	position: relative;
 	z-index: 2;
-	border: 2px solid #feca16;
+	border: 2px solid #3c91f5;
 	overflow: hidden;	
 }
 .introduction-block a::after {	
 	position: absolute;
 	content: "";
-	background-color: #feca16;
+	background-color: #3c91f5;
     height: 0;
     left: 50%;
     opacity: 0;
@@ -1057,7 +1074,7 @@
 	transform: translate(-50%, -50%);
 }
 .testimonial-blockquote-circle span {
-	background-color: #888;
+	background-color: #fff;
 	height: 73px;
 	width: 75px;
 	border-radius: 100%;
@@ -1067,7 +1084,7 @@
 	margin: 0 auto;	
 }
 .testimonial-blockquote-circle span i {
-	color: #fff;
+	color: #3c91f5;
 	font-size: 24px;
 	line-height: 78px;
 }
@@ -1126,7 +1143,7 @@
 	margin-bottom: 13px;
 }
 .testimonial-content span {
-	color: #feca16;
+	color: #3c91f5;
 	font-size: 14px;
 	line-height: 28px;
 	letter-spacing: 0.42px;
@@ -1300,7 +1317,7 @@
 .booking-form-block .btn {
 	border-radius: 0;
 	padding: 9px 26px;
-	background-color: #feca16;
+	background-color: #3c91f5;
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 13px;

@@ -62,7 +62,7 @@
 /* ## Global */
 
 body {
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Avenir', sans-serif;
 	font-size: 15px;
 	color: #000;
 	overflow-x: hidden;
@@ -117,8 +117,8 @@ a {
 
 /* - Section Padding */
 .section-padding {
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 0px;
+	padding-bottom: 30px;
 }
 
 /* - Block Title */
@@ -126,7 +126,6 @@ a {
 	text-transform: uppercase;	
 	letter-spacing: 1.12px;
 	font-family: 'Josefin Sans', sans-serif;
-	color: #fff;
 	font-weight: 700;
 	font-size: 16px;
 	margin: 0 0 18px 0;
@@ -140,16 +139,15 @@ a {
 	display: inline-block;
 	width: 100%;
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 5px;
 }
 .section-header h3 {
 	margin: 0;
-	text-transform: uppercase;
 	font-size: 30px;
 	font-weight: 600;
 	letter-spacing: 0.9px;
 	line-height: 28px;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Avenir', sans-serif;
 	padding-bottom: 30px;
 	word-wrap: break-word;
 }
@@ -159,7 +157,7 @@ a {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 600;
 	font-style: italic;
-	color: #feca16;
+	color: #f0f;
 	line-height: 28px;
 	text-transform: capitalize;
 }
@@ -246,7 +244,7 @@ a {
 	word-wrap: break-word;
 }
 .page-banner .banner-content .breadcrumb li.active {
-	color: #feca16;
+	color: #00f;
 }
 .page-banner .banner-content .breadcrumb li:first-of-type a {
 	margin-left: 0;
@@ -572,14 +570,15 @@ a {
 /* ## Header */
 /* - Top Hedaer */
 .top-header {
-	border-bottom: 1px solid #e5e5e5;
-    border-top: 3px solid #feca16;   
-    padding: 19px 0 19px;    
+	border-bottom: 0px solid #e5e5e5;
+    padding: 5px 0 5px;    
+    background: linear-gradient(to bottom right, #006ff0, #00afd9); /* Standard syntax */
 }
 
 /* - Social  */
 .top-header .social {
 	margin: 15px 0 15px;
+    text-align: right;
 }
 .top-header .social ul {
 	padding-left: 0;	
@@ -596,7 +595,6 @@ a {
 	display: inline-block;
 }
 .top-header .social ul li a {
-	background-color: #bec2c5;
     border-radius: 100%;
     color: #fff;
     font-size: 16px;
@@ -610,8 +608,8 @@ a {
     width: 42px;
 }
 .top-header .social ul li a:hover {
-	background-color: #feca16;
-	color: #000;
+	background-color: #006cff;
+	color: #fff;
 }
 
 /* - Logo Block */
@@ -658,7 +656,7 @@ a {
     -o-transition: all 1s ease 0s;
 }
 .top-header .register a:hover {
-	background-color: #feca16;
+	background-color: #ff00ff;
 	color: #000;
 }
 
@@ -670,7 +668,7 @@ a {
 	position: relative;
 }
 .navbar-fixed-top.menu-block .container {
-	border: 2px solid #feca16;
+	border: 0px solid #0811f5;
 	border-top: none;
 	max-width: 1170px;
 }
@@ -825,7 +823,7 @@ a {
 
 /* ## Footer */
 .footer-main {	
-	background-color: #29363e;
+	background-color: #1a7fe3;
 	padding-top: 74px;
 }
 .footer-main .row {
@@ -944,7 +942,7 @@ a {
 	-o-transition: all 1s ease 0s;
 }
 .footer-main .widget_contactus .contactinfo-box p a:hover {
-	color: #feca16;
+	color: #1e74ea;
 	margin-left: 5px;
 }
 
@@ -978,7 +976,7 @@ a {
 	z-index: 1;
 }
 .footer-main .widget_newsletter .input-group-btn .btn {
-	background-color: #feca16;
+	background-color: #0b77f5;
 	font-size: 18px;
 	text-transform: uppercase;
 	font-family: 'Hind', sans-serif;
@@ -1090,7 +1088,6 @@ a {
 	padding-right: 0;
 }
 
-
 /* ========================================================================== */
 /* ========================================================================== */
 							/* [ Responsive ] */
@@ -1102,6 +1099,8 @@ a {
 	.container {
 		width: 1200px;
 	}
+    
+
 }
 
 /* - min-width: 992 to max-width: 1199 */
@@ -1215,6 +1214,7 @@ a {
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}
+
 }
 
 /* - max-width: 639 */
@@ -1238,6 +1238,11 @@ a {
 		width: 30px;
 		line-height: 30px;
 	}
+        	.top-header .social,
+	.top-header .register {
+		margin: 15px
+	}
+    
 }
 
 /* - max-width: 479 */
@@ -1303,4 +1308,44 @@ a {
 	.page-banner .banner-content::after {
 		width: 0;
 	}
+    
+    	.top-header .social,
+	.top-header .register {
+		text-align: center;
+	}
+
+}
+
+
+.text_center {
+    text-align: center
+}
+
+
+
+.pos_rel {
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.margins {
+    text-align: center;
+}
+
+
+
+.white_font {
+    color: white;
 }
