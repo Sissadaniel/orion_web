@@ -164,7 +164,7 @@ a {
 
 /* ## Page Banner */
 .page-banner {
-	background: url("images/about-banner.jpg"); 
+	background: url("images/custom/nosotros%20_bg.png");
 	-webkit-background-size: cover;
 	background-size: cover;		
 	background-position: center center;
@@ -1088,6 +1088,17 @@ a {
 	padding-right: 0;
 }
 
+.slick-prev:before, .slick-next:before {
+    color: #3362ff !important;
+}
+
+
+.center,.slick-center{
+    transform: scale(1.1) !important;
+        transition: all 300ms ease !important;
+}
+
+
 /* ========================================================================== */
 /* ========================================================================== */
 							/* [ Responsive ] */
@@ -1349,3 +1360,28 @@ a {
 .white_font {
     color: white;
 }
+
+.frase_8 {
+    text-align: center;
+    font-family: 'Avenir';
+    font-size: 26px;
+    padding: 20px 15px 20px 15px
+}
+
+.padding_slick {
+    padding: 10px 0px 20px 0px;
+}
+
+.bg_black {
+    background-color: black;
+}
+
+
+
+.arrow_font {
+    color: black;
+}
+
+
+
+

@@ -1169,7 +1169,7 @@
 
 /* -- HurryUp Booking Section */
 .hurryup-booking-section {
-	background: url("../images/book-bg.jpg"); 
+	background: url("../images/custom/contacto_bg.png");
 	-webkit-background-size: cover;
 	background-size: cover;		
 	background-position: center center;
