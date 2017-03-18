@@ -426,6 +426,8 @@
     display: inline-block;
     margin-bottom: 35px;
     width: 100%;
+    text-align: center;
+    text-align: center;
 }
 .howwecan2 .howwecan2-box h3{
 	text-transform: uppercase;
@@ -447,7 +449,6 @@
 	line-height: 65px;
 	font-size: 30px;
 	color: #3c91f5;
-	position: absolute;
 	left: 0;
 	top: 5px;
 }
@@ -456,7 +457,7 @@
 	margin-top: 29px;
 }
 .howwecan2 .howwecan2-box-content p{
-	padding-left: 92px;
+	padding-top: 9px;
 	color: #777;
 	font-size: 14px;
 	line-height: 26px;
@@ -472,7 +473,6 @@
 	-webkit-transition: all 1s ease 0s;
 	-moz-transition: all 1s ease 0s;
 	-o-transition: all 1s ease 0s;
-    min-height: 540px;
 }
 .introduction-block:hover {
 	opacity: 0.9;
@@ -656,7 +656,7 @@
 	background-color: #fff;
 	margin-bottom: 0;
 	position: relative;
-	width: 16.66667%;
+	width: 50%;
 	text-align: center;
 	transition: all 1s ease 0s;
 	-webkit-transition: all 1s ease 0s;
@@ -664,7 +664,7 @@
 	-o-transition: all 1s ease 0s;	
 }
 .schedule-block .nav-tabs > li.active  {
-	background-color: #feca16;
+	background-color: #777;
 }
 .schedule-block .nav-tabs > li::after  {
 	position: absolute;
@@ -709,7 +709,7 @@
 .schedule-block .nav-tabs > li.active > a:hover {
 	border: none;	
 	color: #fff;
-	background-color: #feca16;
+	background-color: #3c91f5;
 }
 .schedule-block .nav-tabs > li.active > a h3,
 .schedule-block .nav.nav-tabs li.active span{
@@ -738,7 +738,7 @@
 	left: 108px;
 	top: 25px;
 	bottom: 0;
-	background-color: #feca16;
+	background-color: #3c91f5;
 	bottom: -25px;
 	width: 1px;
 }
@@ -792,7 +792,7 @@
 	font-family: FontAwesome;
 	font-size: 15px;
 	font-weight: 400;
-	color: #feca16;	
+	color: #3c91f5;	
 	left: -54px;
 	position: absolute;
 	top: 0;
@@ -800,7 +800,7 @@
 	width: 25px;
 	text-align: center;
 	line-height: 24px;
-	border: 1px solid #feca16;	
+	border: 1px solid #3c91f5;	
 }
 .schedule-block .panel-group .panel-heading a.collapsed:before {
 	content: '\f106';
@@ -863,7 +863,7 @@
 	width: 100%;
 	display: inline-block;
 	margin-top: 12px;
-	color: #feca16;
+	color: #3c91f5;
 	font-size: 12px;
 	font-weight: 400;
 }
@@ -884,14 +884,14 @@
 	line-height: 28px;
 }
 .schedule-block .panel-default .panel-body .author-content a:hover {
-	background-color: #feca16;
+	background-color: #3c91f5;
 	color: #222;
 }
 .schedule-block .panel-default .panel-body .author-content a:last-of-type {
 	margin-right: 0;
 }
 .schedule-block .panel-default .panel-body .author-content .btn-event {
-	background-color: #feca16;
+	background-color: #3c91f5;
 	padding: 4px 25px;	
 }
 .schedule-block .panel-default .panel-body .author-content .btn-event:hover{
@@ -925,7 +925,7 @@
 	font-weight: 600;
 	letter-spacing: 0.96px;
 	line-height: 28px;
-	background-color: #feca16;
+	background-color: #3c91f5;
 	color: #fff;
 	margin-bottom: 30px;
 	transition: all 1s ease 0s;
