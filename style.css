@@ -202,7 +202,7 @@ a {
 	top: 0;
 	bottom: 0;
 	display: inline-block;
-	background-color: rgba(36, 115, 224, 0.68);
+	background-color:  rgba(0, 46, 93, 0.68);
 }
 
 .page-banner_training::before{
@@ -213,7 +213,7 @@ a {
 	top: 0;
 	bottom: 0;
 	display: inline-block;
-	background-color: rgba(36, 115, 224, 0.68);
+	background-color:  rgba(0, 46, 93, 0.68);
 }
 .page-banner .banner-content {
 	position: absolute;
@@ -343,7 +343,7 @@ a {
 }
 
 .page-banner_training .banner-content .breadcrumb li.active {
-	color: #00f;
+	color: #4c7cff;
 }
 .page-banner .banner-content .breadcrumb li:first-of-type a {
 	margin-left: 0;
@@ -387,8 +387,20 @@ a {
 }
 
 /* - Page Banner:: Event Grid */
-.page-banner.event-grid {
-	background: url("images/event_grid-banner.jpg"); 
+.bg_legal {
+	background: url("images/custom/bg_legal.png"); 
+}
+
+.bg_operacion {
+	background: url("images/custom/bg_operacion.png"); 
+}
+
+.bg_fiscal {
+	background: url("images/custom/bg_fiscal.png"); 
+}
+
+.bg_bienestar {
+	background: url("images/custom/bg_bienestar.png"); 
 }
 
 /* - Page Banner:: Blog */
@@ -690,7 +702,7 @@ a {
 .top-header {
 	border-bottom: 0px solid #e5e5e5;
     padding: 5px 0 5px;    
-    background: linear-gradient(to bottom right, #006ff0, #00afd9); /* Standard syntax */
+    background:  rgba(0, 46, 93, 1); /* Standard syntax */
 }
 
 /* - Social  */
@@ -941,7 +953,7 @@ a {
 
 /* ## Footer */
 .footer-main {	
-	background-color: #1a7fe3;
+	background-color:  rgba(0, 46, 93, 1);
 	padding-top: 74px;
 }
 .footer-main .row {
@@ -1156,7 +1168,7 @@ a {
     transform: rotate(360deg);
 }
 .footer-main .widget_newsletter a + .tooltip > .tooltip-inner {
-	background-color: #feca16;
+	background-color: rgba(0, 46, 93, 1);;
 	color: #fff;
 }
 .footer-main .widget_newsletter a + .tooltip > .tooltip-arrow { 
@@ -1508,7 +1520,7 @@ a {
 }
 
 .blue_bg {
-    background: linear-gradient(to top right, #006ff0, #00afd9);
+    background:  rgba(0, 46, 93, 1);
     color: white;
 }
 
@@ -1535,4 +1547,16 @@ a {
 
 .grey_bg {
     background-color: #ececec;
+}
+
+.padding_top {
+    padding-top: 20px
+}
+
+.separator {
+    height:1px;
+
+background:#717171;
+
+border-bottom:1px solid rgb(35, 137, 242);
 }

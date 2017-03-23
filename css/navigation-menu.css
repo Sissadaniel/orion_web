@@ -44,7 +44,7 @@
 	-o-transition: all 1s ease 0s;
 }
 .ow-navigation .navbar-brand span:hover {
-	color: #feca16;
+	color:  rgba(0, 46, 93, 1);;
 }
 .ow-navigation .nav.navbar-nav > li {
 	margin: 0 8px;
@@ -84,7 +84,7 @@
 .ow-navigation .dropdown-menu li:hover > a,
 .ow-navigation .dropdown-menu li > a:hover {
 	background-color: transparent;
-	color: #1537c9;
+	color:  rgba(0, 46, 93, 1);
 }
 
 /* -- Navbar Fixed */
@@ -105,7 +105,7 @@
 		opacity: 1;
 		transform: scaleY(1);
 		visibility: visible;
-		background-color: #1537c9;
+		background-color:  #fff;
 	}	
 	.ow-navigation .ddl-switch {
 		display: none !important;
@@ -133,7 +133,8 @@
 		display: block;
 		padding: 0 10px;
 		max-width: 250px;
-		width: 100%;		
+		width: 100%;
+        
 	}
 	.ow-navigation .dropdown-menu > li > a {
 		white-space: normal;
@@ -142,12 +143,11 @@
 		-webkit-transition: all 1s ease 0s;
 		-moz-transition: all 1s ease 0s;
 		-o-transition: all 1s ease 0s;
-		color: #fff;
 	}
 	.ow-navigation .dropdown-menu > li:hover > a,
 	.ow-navigation .dropdown-menu > li > a:hover {
 		background-color: transparent;
-		color: #222;
+                color: #0089ff;
 	}
 	.ow-navigation ul > li > .dropdown-menu { 
 		left: 0; 
@@ -252,7 +252,7 @@
 	}
     .ow-navigation .navbar-toggle {
         display: block;
-		background-color: #4869f7;
+		background-color:  rgba(0, 46, 93, 1);
 		margin-bottom: 0px;
 		margin-top: 0px;
 		margin-right: 0px;
@@ -269,12 +269,12 @@
 	.navbar-fixed-top .ow-navigation .navbar-toggle:hover,
 	.ow-navigation .navbar-toggle:hover {
 		background-color: #fff;
-		border-color: #feca16;
+		border-color:  rgba(0, 46, 93, 1);;
 	}
 	.navbar-fixed-top .ow-navigation .navbar-toggle:focus .icon-bar,
 	.navbar-fixed-top .ow-navigation .navbar-toggle:hover .icon-bar,
 	.ow-navigation .navbar-toggle:hover .icon-bar {
-		background-color: #feca16;
+		background-color:  rgba(0, 46, 93, 1);;
 	}   
 	.ow-navigation .navbar-collapse > .nav.navbar-nav > li {
 		margin: 0;
@@ -321,7 +321,7 @@
 		right: 0;
 		z-index: 9999;
 		top: 6px;
-		color: #feca16;
+		color: rgba(0, 46, 93, 1);;
 	}
 	.ow-navigation .ddl-active > .ddl-switch:before {
 		content: "\f106";
