@@ -1058,7 +1058,7 @@ a {
 	margin-left: 20px;
 	color: #fff;
 	font-size: 15px;
-	font-family: 'Arimo', sans-serif;
+	font-family: 'Avenir', sans-serif;
 	padding-right: 40px;
 	line-height: 24px;
 }
@@ -1082,7 +1082,7 @@ a {
 }
 .footer-main .widget_newsletter p {
 	color: #a4b0b6;
-	font-family: 'Arimo', sans-serif;
+	font-family: 'Avenir', sans-serif;
 	margin-top: 12px;
 	padding-right: 15px;
 }
@@ -1522,6 +1522,7 @@ a {
 .blue_bg {
     background:  rgba(0, 46, 93, 1);
     color: white;
+    margin-top: -6px
 }
 
 .training_frase {
@@ -1559,4 +1560,42 @@ a {
 background:#717171;
 
 border-bottom:1px solid rgb(35, 137, 242);
+}
+
+.center_flex {
+        display: flex;
+    justify-content: center;
+}
+
+.color_black {
+    color: black;
+}
+
+.pointer_default {
+    cursor: default;
+}
+
+.section_style {
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    font-size: 50px;
+    font-family: 'Avenir';
+}
+
+.img_block {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.img-center {
+     margin: 0 auto;
+}
+
+.darkgrey_bg {
+    background-color: #999;
+}
+
+.margin_mobile {
+    margin: 0 20px 20px 20px 
 }

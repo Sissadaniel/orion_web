@@ -462,7 +462,7 @@
 	font-size: 14px;
 	line-height: 26px;
 	letter-spacing: 0.42px;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Avenir', sans-serif;
 }
 /* -- Introduction Section */
 .introduction-block {
@@ -564,7 +564,7 @@
 	color: #444;	
 	position: relative;
 	z-index: 2;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Avenir', sans-serif;
 }
 .introduction-block a {
 	background-color: transparent;
@@ -1135,7 +1135,7 @@
 }
 .testimonial-content p {
 	color: #888;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Avenir', sans-serif;
 	letter-spacing: 0.45px;
 	font-size: 15px;
 	line-height: 28px;	
@@ -1203,7 +1203,7 @@
 .hurryup-block .timer-box p {
 	font-size: 16px;
 	color: #fff;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Avenir', sans-serif;
 	letter-spacing: 0.16px;
 	line-height: 28px;
 	padding: 0 60px;
@@ -1476,7 +1476,7 @@
 	font-size: 15px;
 	line-height: 28px;
 	letter-spacing: 0.45px;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Avenir', sans-serif;
 }
 .latest-blog .type-post .learn-more {
 	text-decoration: none;
@@ -1609,7 +1609,7 @@
 	font-weight: 500;
 	letter-spacing: 0.72px;
 	line-height: 38px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Avenir', sans-serif;
 }
 .blogpost .type-post blockquote cite {
 	color: #222;
@@ -1711,7 +1711,7 @@
 	color: #777;
 	font-size: 15px;
 	line-height: 28px;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Avenir', sans-serif;
 	letter-spacing: 0.45px;
 	margin-bottom: 0;
 }
@@ -2805,7 +2805,7 @@
 	text-transform: uppercase;
 	letter-spacing: 1.36px;
 	line-height: 28px;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Avenir', sans-serif;
 	font-weight: 600;
 	margin-bottom: 25px;
 }
@@ -2869,7 +2869,7 @@
 	line-height: 28px;
 	text-transform: initial;
 	font-weight: 400;
-	font-family: 'Work Sans' ,sans-serif;
+	font-family: 'Avenir' ,sans-serif;
 }
 .error-content a { 
 	text-decoration: none;
