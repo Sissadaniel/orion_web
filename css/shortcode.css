@@ -534,7 +534,7 @@
 	left: 0;
 	bottom: 0;
 	width: 35px;
-	background-color:  rgba(0, 46, 93, 1);
+	background-color:  #F0DD30;
 	height: 2px;	
 }
 .introduction-block span {
@@ -1084,7 +1084,7 @@
 	margin: 0 auto;	
 }
 .testimonial-blockquote-circle span i {
-	color:  rgba(0, 46, 93, 1);
+	color:  #F0DD30;
 	font-size: 24px;
 	line-height: 78px;
 }
@@ -1175,9 +1175,6 @@
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	position: relative;
-	max-height: 450px;
-	min-height: 450px;
 }
 
 /* -- HurryUp */
@@ -1277,9 +1274,6 @@
 
 /* -- Booking Form */
 .booking-form-block  {
-	position: relative;
-	background-color: rgba(0,0,0,0.85);
-	padding: 40px 62px 63px;
 	display: inline-block;
 	width: 100%;
 	text-align: center;

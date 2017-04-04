@@ -148,7 +148,7 @@ a {
 
 .section-padding {
     padding-top: 0px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
 }
 
 
@@ -157,7 +157,7 @@ a {
 .block-title {
     text-transform: uppercase;
     letter-spacing: 1.12px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Avenir', sans-serif;
     font-weight: 700;
     font-size: 16px;
     margin: 0 0 18px 0;
@@ -190,7 +190,7 @@ a {
 .section-header span {
     font-size: 18px;
     letter-spacing: 2.88px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Avenir', sans-serif;
     font-weight: 600;
     font-style: italic;
     color: #f0f;
@@ -283,7 +283,7 @@ a {
     content: "";
     top: 0;
     bottom: 0;
-    background-color: #fff;
+    background-color: #F0DD30;
     width: 1px;
 }
 
@@ -315,14 +315,14 @@ a {
 
 .page-banner .banner-content h3 {
     color: #fff;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Avenir', sans-serif;
     font-weight: 700;
     font-size: 22px;
     letter-spacing: 1.1px;
     line-height: 32px;
     text-transform: uppercase;
     position: relative;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #F0DD30;
     padding-bottom: 15px;
     margin-bottom: 15px;
     margin-top: 10px;
@@ -334,7 +334,7 @@ a {
 
 .page-banner_training .banner-content h3 {
     color: #fff;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Avenir', sans-serif;
     font-weight: 700;
     font-size: 22px;
     letter-spacing: 1.1px;
@@ -1136,7 +1136,7 @@ a {
     height: 0;
     margin: 0;
     z-index: 11;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Avenir', sans-serif;
     font-size: 16px;
     color: #000;
     -webkit-transition: width 0.3s;
@@ -1163,11 +1163,11 @@ a {
 
 .footer-main {
     background-color: rgba(0, 46, 93, 1);
-    padding-top: 74px;
+    padding-top: 20px;
 }
 
 .footer-main .row {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 
@@ -1748,7 +1748,7 @@ a {
 }
 
 .text_center {
-    text-align: center
+    text-align: center;
 }
 
 .pos_rel {
@@ -1881,4 +1881,57 @@ background-image: url(images/custom/back_parallax1.png);
     font-family: 'Avenir';
     font-size: 20px;
     font-weight: 500;
+}
+
+.just_text {
+    text-align: justify;
+}
+
+.marg_top {
+    margin-top: 20px
+}
+
+.icon_config {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 10px
+}
+
+.icon_center {
+    margin: 0 auto;
+    display: block;
+}
+
+.caps {
+     text-transform: uppercase;
+}
+
+
+
+.minus_marg {
+    margin-top: -10px
+}
+
+.back_contact {
+    	background-color: rgba(0,0,0,0.85);
+}
+
+.title_size {
+    font-size: 35px
+}
+
+.yellow_font {
+    color: #F0DD30;
+}
+
+.img_center {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+.nav_fix {
+    position: fixed;
+    z-index: 10
 }
