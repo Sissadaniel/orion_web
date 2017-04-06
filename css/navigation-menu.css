@@ -87,7 +87,7 @@
 .ow-navigation .dropdown-menu li:hover > a,
 .ow-navigation .dropdown-menu li > a:hover {
 	background-color: transparent;
-	color:  rgba(0, 46, 93, 1);
+	color:  #0089ff;
 }
 
 /* -- Navbar Fixed */
@@ -105,8 +105,7 @@
 		padding-right: 0;		
 	}
 	.ow-navigation .nav.navbar-nav li.dropdown:hover > .dropdown-menu {
-		opacity: 1;
-		transform: scaleY(1);
+	
 		visibility: visible;
 		background-color:  #fff;
 	}	
@@ -127,9 +126,11 @@
 		left: 100%;
 		border-radius: 0;
 		margin-top: 0;
+        /*
 		transform: scaleY(0);
 		transform-origin: 0 0 0;
 		transition: all 0.4s ease-in-out 0s;
+        */
 		visibility: hidden;
 		top: 0;
 		box-shadow: none;
@@ -137,6 +138,7 @@
 		padding: 0 10px;
 		max-width: 250px;
 		width: 100%;
+
         
 	}
 	.ow-navigation .dropdown-menu > li > a {

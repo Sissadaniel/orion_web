@@ -173,11 +173,11 @@
 			if ( li.hasClass("ddl-active") || li.find(".ddl-active").length !== 0 || li.find(".dropdown-menu").is(":visible") ) {
 				li.removeClass("ddl-active");
 				li.children().find(".ddl-active").removeClass("ddl-active");
-				li.children(".dropdown-menu").slideUp();
+				li.children(".dropdown-menu").fadeOut();
 			}
 			else {
 				li.addClass("ddl-active");
-				li.children(".dropdown-menu").slideDown();
+				li.children(".dropdown-menu").fadeIn();
 			}
 		});
 		

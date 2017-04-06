@@ -69,7 +69,7 @@
 
     <!-- Header -->
      <div id="includedContent2"></div>
-
+    
     <!-- PageBanner -->
     <div class="container-fluid page-banner about no-padding">
         <div class="section-padding"></div>
@@ -276,13 +276,18 @@
    
       <script> 
     $(function(){
-      $("#includedContent").load("footer.html"); 
+      $("#includedContent").load("footer.html");
+        
     });
     </script> 
     
     <script> 
     $(function(){
-      $("#includedContent2").load("header.html"); 
+      $("#includedContent2").load("header.html", function () {
+          var a = $('.faqs')
+    console.log(a)
+    a.addClass('active')
+      }); 
     });
     </script> 
    

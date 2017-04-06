@@ -1937,3 +1937,110 @@ background-image: url(images/custom/back_parallax1.png);
 }
 
 
+
+.pad_2col {
+    padding: 0px 50px 0px 50px
+}
+
+.pad_3col {
+    padding: 0px 50px 50px 50px
+}
+
+.training_cards {
+    min-height: 210px;
+          border-radius: 15px;
+}
+
+.flex-row {
+	display: flex;
+	flex-wrap: wrap;
+}
+.flex-row > [class*='col-'] {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-row .thumbnail,
+.flex-row .caption {
+	flex-direction: column;
+	display: flex;
+	flex: 1 0 auto;
+	height: auto;
+	position: relative;
+     -webkit-transition: -webkit-box-shadow 0.5s ease-out, opacity 0.5s ease-out;
+    -moz-transition: -moz-box-shadow 0.5s ease-out, opacity 0.5s ease-out;
+    transition: box-shadow 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.flex-row .thumbnail,
+.flex-row .caption:hover {
+ -webkit-box-shadow: 2px 12px 10px rgba(0,0,0,1);
+    -moz-box-shadow: 2px 12px 10px  rgba(0,0,0,0.1);
+    box-shadow: 2px 12px 10px rgba(0,0,0,.1);
+    opacity: 1;
+    cursor: pointer;
+}
+.flex-text {
+	flex-grow: 1;
+}
+.flex-row img {
+	min-width: 0;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.bord_rad {
+    border-top: solid 10px;
+    border-top-color: #F0DD30;
+}
+
+.responsive_img {
+    display: block;
+    margin: 0 auto;
+padding: 100px
+}
+
+.disp_flex {
+ display: table-cell;
+}
+
+.flex_center {
+   
+vertical-align: middle;
+}
+
+
+
+.blue_text {
+    color: rgba(0, 46, 93, 1)
+}
+
+.pad_text {
+    padding: 0px 10px 10px 10px
+}
+
+.payroll_size {
+    font-size: 30px;
+}
+
+.acord_payroll {
+    color: #F0DD30 !important;
+    background-color: rgba(0, 46, 93, 1) !important;
+    border-color: rgb(0, 36, 74) !important;
+    height: 70px;
+}
+
+.acord_font {
+    font-size: 50px
+}
+
+.white_bg {
+    background-color: #fff
+}

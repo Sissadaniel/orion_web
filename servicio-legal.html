@@ -56,7 +56,7 @@
     <!-- Loader /- -->
 
     <!-- Header -->
-     <div id="includedContent2"></div>
+    <div id="includedContent2"></div>
 
     <!-- PageBanner -->
     <div class="container-fluid page-banner event-grid bg_legal no-padding">
@@ -81,12 +81,12 @@
             <div class="row padding_top">
                 <div class="col-md-1"></div>
                 <div class="col-md-3">
-                    <div class="text_center ch3">Legal/Laboral</div> 
+                    <div class="text_center ch3">Legal/Laboral</div>
                     <div class="padding_top"></div>
                     <img src="images/custom/legal_img.png" class="img-responsive img-center" alt="Responsive image">
                     <div class="padding_top"></div>
                 </div>
-                <div class="col-md-7 just_text">En Orión Consultores contamos con un área legal conformada por abogados expertos en temas laborales que proporcionan a nuestros clientes análisis de riesgos y soluciones integrales, tanto en materia individual como colectiva, aunado a lo anterior asesoramos a nuestros clientes para que cuenten con todas las herramientas necesarias para la debida integración de los expedientes de los trabajadores, brindando con esto, entre otras cosas, una asesoría integral jurídico-laboral para prevención de todo tipo de contingencias laborales.
+                <div class="col-md-7 just_text">En Orión Consultores contamos con un área legal conformada por abogados profesionales en temas laborales que proporcionan a nuestros asociados comerciales análisis de riesgos y soluciones integrales; tanto en materia individual como colectiva. Aunado a lo anterior, también los asesoramos para que cuenten con todas las herramientas necesarias para la debida integración de los expedientes personales, brindando con esto, entre otras cosas; una asesoría integral jurídica para prevención de todo tipo de contingencias laborales.
                 </div>
 
                 <div class="padding_top">
@@ -216,7 +216,7 @@
         <div class="padding_top"></div>
     </div>
     <!-- Footer Main -->
- <div id="includedContent"></div>
+    <div id="includedContent"></div>
     <!-- Footer Main /- -->
 
     <!-- JQuery v1.11.3 -->
@@ -231,16 +231,21 @@
     <!-- Library - Google Map API -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCn3Z6i1AYolP3Y2SGis5qhbhRwmxxo1wU"></script>
     <script src="js/functions.js"></script>
-    
-     <script> 
-    $(function(){
-      $("#includedContent").load("footer.html"); 
-    });
-    </script> 
-    
+
+    <script>
+        $(function() {
+            $("#includedContent").load("footer.html");
+        });
+
+    </script>
+
     <script> 
     $(function(){
-      $("#includedContent2").load("header.html"); 
+      $("#includedContent2").load("header.html", function () {
+          var a = $('.admin')
+    console.log(a)
+    a.addClass('active')
+      }); 
     });
     </script> 
 </body>

@@ -138,8 +138,12 @@
     
     <script> 
     $(function(){
-      $("#includedContent2").load("header.html"); 
+      $("#includedContent2").load("header.html", function () {
+          var a = $('.boletin')
+    console.log(a)
+    a.addClass('active')
+      }); 
     });
-    </script>
+    </script> 
 </body>
 </html>
