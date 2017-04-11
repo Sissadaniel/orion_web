@@ -58,63 +58,6 @@
  <div id="includedContent2"></div>
     <!-- Header /- -->
 
-    <div class="blue_bg white_font">
-        <div class="container">
-            <div class="row">
-                <div class="section_style">Contáctanos</div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid hurryup-booking-section no-padding  minus_marg" id="contacto">
-        <div class="container back_contact">
-           <div class="marg_top"></div>
-            <div class="row ">
-                <div class=" widget widget_newsletter white_font ">
-                    <div class="col-md-offset-1 col-md-5 col-sm-5 no-padding">
-                        <div class="booking-form-block">
-                            <div class="ch3 title_size">Ponte en contacto con nosotros</div>
-                              <div class="marg_top"></div>
-                            <form>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" placeholder="Nombre completo" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" id="email" placeholder="Correo electrónico" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="phone" placeholder="Número telefónico" />
-                                </div>
-                                <button type="submit" class="btn" style="text-align:center;" >Enviar</button>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="widget widget_contactus white_font col-md-3 col-md-offset-1 col-sm-3 text_center">
-                         <div class="marg_top"></div>
-                        <div class="ch3 title_size ">Contáctanos</div>
-                        <div class="contactinfo-box">
-                            <i class="fa fa-phone marg_top yellow_font"></i>
-                                <div title="0112345678" href="tel:+0112345678">Corporativo DF</div>
-                                <div title="0112355689" href="tel:+0112355689">(55) 6553-2908</div>
-                        </div>
-                         <div class="marg_top"></div>
-                        <div class="contactinfo-box">
-                            <i class="fa fa-phone yellow_font"></i>
-                                <div title="0112345678" href="tel:+0112345678">Corporativo Cancún</div>
-                                <div title="0112355689" href="tel:+0112355689">(998) 206 3672</div>
-                        </div>
-                         <div class="marg_top"></div>
-                        <div class="contactinfo-box ">
-                            <i class="fa fa-map-marker yellow_font"></i>
-                                <div href="mailto:Info@OurDomain.Com" title="Info@OurDomain.Com">El horario de atención telefónica de Lunes a Viernes de  8:30 AM a 6:30 PM</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="marg_top"></div>
-        </div>
-    
-    </div>
     <div class="section blue_bg white_font">
         <div class="container">
             <div class="row">
@@ -124,6 +67,7 @@
     </div>
     <div class="container-fulid no-padding contactus">
         <div class="section-padding"></div>
+        <div class="marg_top"></div>
         <div class="container">
             <div class="row contact-form-section">
                 <div class="col-md-2 ">
@@ -135,27 +79,27 @@
                     <form id="contact-form" class="contactus-form">
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <input type="text" name="contact-name" class="form-control" id="input_name" placeholder="Your Name*" required="" />
+                                <input type="text" name="contact-name" class="form-control" id="input_name" placeholder="TU NOMBRE*" required="" />
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <input type="text" name="contact-phone" class="form-control" id="input_phone" placeholder="Phone" />
+                                <input type="text" name="contact-phone" class="form-control" id="input_phone" placeholder="TELÉFONO" />
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <input type="email" name="contact-email" class="form-control" id="input_email" placeholder="Your E-mail" required="" />
+                                <input type="email" name="contact-email" class="form-control" id="input_email" placeholder="CORREO ELECTRÓNICO" required="" />
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <input type="text" name="contact-subject" class="form-control" id="input_subject" placeholder="Subject" />
+                                <input type="text" name="contact-subject" class="form-control" id="input_subject" placeholder="ASUNTO" />
                             </div>
                         </div>
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="form-group">
-                                <textarea rows="10" name="contact-message" class="form-control" id="textarea_message" placeholder="Message"></textarea>
+                                <textarea rows="10" name="contact-message" class="form-control" id="textarea_message" placeholder="COMENTARIOS"></textarea>
                             </div>
                         </div>
                         <div class="col-md-12 col-sm-12 col-xs-12">
@@ -199,10 +143,14 @@
     $(function(){
       $("#includedContent2").load("header.html", function () {
           var a = $('.contacto')
-    console.log(a)
     a.addClass('active')
       }); 
     });
     </script> 
+    
+    
+    
+    
+    
 </body>
 </html>

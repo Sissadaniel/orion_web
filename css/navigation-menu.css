@@ -30,20 +30,16 @@
 	padding-left: 0;
 	margin-right: 12px;
 	display: none;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 300çpx;
+	font-family: 'Avenir', sans-serif;
+	font-size: 300px;
 
 }
 .ow-navigation .navbar-brand span {	
 	font-size: 28px;
 	color: #29363e;
-	font-family: 'Work Sans', sans-serif;	
+	font-family: 'Avenir', sans-serif;	
 	font-weight: 600;
     letter-spacing: 3.36px;
-	transition: all 1s ease 0s;
-	-webkit-transition: all 1s ease 0s;
-	-moz-transition: all 1s ease 0s;
-	-o-transition: all 1s ease 0s;
     
 }
 .ow-navigation .navbar-brand span:hover {
@@ -62,10 +58,6 @@
 	padding: 6px 15px;
 	line-height: 20px;
 	font-weight: 700;
-	transition: all 1s ease 0s;
-	-webkit-transition: all 1s ease 0s;
-	-moz-transition: all 1s ease 0s;
-	-o-transition: all 1s ease 0s;
 }
 .ow-navigation .nav.navbar-nav > li > a {
 	padding: 7px 15px;	
@@ -144,10 +136,6 @@
 	.ow-navigation .dropdown-menu > li > a {
 		white-space: normal;
 		padding: 7px 0;
-		transition: all 1s ease 0s;
-		-webkit-transition: all 1s ease 0s;
-		-moz-transition: all 1s ease 0s;
-		-o-transition: all 1s ease 0s;
 	}
 	.ow-navigation .dropdown-menu > li:hover > a,
 	.ow-navigation .dropdown-menu > li > a:hover {
@@ -263,10 +251,7 @@
 		margin-right: 0px;
 		border-radius: 0;
 		border: 10px solid transparent;
-		transition: all 1s ease 0s;
-		-webkit-transition: all 1s ease 0s;
-		-moz-transition: all 1s ease 0s;
-		-o-transition: all 1s ease 0s;
+
     }
 	.navbar-fixed-top .ow-navigation .navbar-toggle .icon-bar,
 	.ow-navigation .navbar-toggle .icon-bar,
