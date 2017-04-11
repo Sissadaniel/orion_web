@@ -72,7 +72,7 @@
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <div clas>
+                    <div class="item">
                         <img src="images/custom/slide_1.png" alt="slide1">
                         <div class="carousel-caption">
                             <div class="container">
@@ -81,21 +81,20 @@
                     </div>
                 </div>
                 <div class="item">
-                    <img src="images/custom/slide_2.png" alt="slide1">
+                    <img src="images/custom/slide_2.png" alt="slide2">
                     <div class="carousel-caption">
                         <div class="container">
                         </div>
                     </div>
                 </div>
                 <div class="item">
-                    <img src="images/custom/slide_3.png" alt="slide1">
+                    <img src="images/custom/slide_3.png" alt="slide3">
                     <div class="carousel-caption">
                         <div class="container">
                         </div>
                     </div>
                 </div>
             </div>
-
             <!-- Controls -->
             <div class="container">
                 <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -220,14 +219,14 @@
                             <div class="testimonial-box testimonial-left">
                                 <div class="testimonial-content">
                                     <p class="just_text">Una Agencia de Viajes, contaba con tan solo 6 empleados inscritos en el IMSS de una plantilla total de 70...</p>
-                                    <div class="hover_logo text_center cursor_hand">Leer más</div>
+                                    <div class="hover_logo text_center cursor_hand" data-toggle="modal" data-target="#myModal1">Leer más</div>
                                 </div>
                                 <img src="images/custom/testimonial1.jpg" alt="testimonial1" width="144" height="136" />
                             </div>
                             <div class="testimonial-box testimonial-left">
                                 <div class="testimonial-content">
                                     <p class="just_text">Una fábrica de muebles decidió contratar los servicios de Orión Consultores quienes después de hacer una minuciosa revisión del estado de nómina...</p>
-                                    <div class="hover_logo text_center cursor_hand">Leer más</div>
+                                    <div class="hover_logo text_center cursor_hand" data-toggle="modal" data-target="#myModal2">Leer más</div>
                                 </div>
                                 <img src="images/custom/testimonial2.jpg" alt="testimonial1" width="144" height="136" />
                             </div>
@@ -242,15 +241,15 @@
                         <div class="testimonial-carousel-right">
                             <div class="testimonial-box testimonial-right">
                                 <div class="testimonial-content just_text">
-                                    <p>Un grupo restaurantero que por la naturaleza de su negocio cuenta con una plantilla sgnificativa, había tenido problemas con el control y registro de expedientes de sus empleados...</p>
-                                    <div class="hover_logo text_center cursor_hand">Leer más</div>
+                                    <p>Un grupo restaurantero que por la naturaleza de su negocio cuenta con una plantilla significativa, había tenido problemas con el control y registro de expedientes de sus empleados...</p>
+                                    <div class="hover_logo text_center cursor_hand" data-toggle="modal" data-target="#myModal3">Leer más</div>
                                 </div>
                                 <img src="images/custom/testimonial3.jpg" alt="testimonial1" width="144" height="136" />
                             </div>
                             <div class="testimonial-box testimonial-right">
                                 <div class="testimonial-content just_text">
                                     <p>Con la ayuda de Orión consultores se pudo diminuir de forma significativa el número de personas que la empresa tenía dedicados en su área administrativa...</p>
-                                    <div class="hover_logo text_center cursor_hand">Leer más</div>
+                                    <div class="hover_logo text_center cursor_hand" data-toggle="modal" data-target="#myModal4">Leer más</div>
                                 </div>
                                 <img src="images/custom/testimonial4.jpg"  alt="testimonial1" width="144" height="136" />
                             </div>
@@ -264,6 +263,94 @@
     <!-- Testimonial Section /- -->
  <div id="includedContent"></div>
  
+    
+    
+    <!-- Modal AV -->
+  <div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Agencia de viajes</h4>
+        </div>
+        <div class="banner_modal1">
+        </div>
+        <div class="modal-body">
+          <p>Una Agencia de viajes, contaba con tan sólo seis empleados inscritos al IMSS de una plantilla total de 70. La empresa tenía la idea de que era mejor no dar de alta a todos... <br> A pesar de que sí contaba con contratos de trabajo, éstos estaban mal elaborados y el resultado fue una demanda legal por parte de uno de los empleados. Los anteriores asesores indicaron que sería necesario pagar una indemnización de 3 meses a dicho trabajador. <br> Después de revisar la situación, Orión Consultores logró conciliar la demanda y realizó nuevos contratos con todos los trabajadores, donde se corrigieron errores y se inscribió a toda la planta laboral al IMSS. Actualmente la empresa opera de forma regular y naturalmente, su riesgo se ha minimizado. </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+   
+   <!-- Modal AV -->
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Fábrica de muebles</h4>
+        </div>
+        <div class="banner_modal2">
+        </div>
+        <div class="modal-body">
+          <p class="col-md-">Una fábrica de muebles decidió contratar los servicios de Orión Consultores quienes después de hacer una minuciosa revisión del estado de nómina, notó que era la propia empresa la que venía realizando las aportaciones del INFONAVIT que en realidad le correspondía a sus empleados. <br> Después de una auditoría, se encontró que el contador de los empleados se había coludido con los empleados para hacer estos movimientos en beneficio de ambos, tanto del trabajador que no tenía que realizar el pago, como del contador que recibía una "gratificación" por su servicio. <br>çUna vez modificado y corregido el problema, el costo de la nómina se redujo en un 20% y se sustituyó al empleado desleal. </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   
+   <div class="modal fade" id="myModal3" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Grupo Restaurantero</h4>
+        </div>
+        <div class="banner_modal3">
+        </div>
+        <div class="modal-body">
+          <p class="col-md-">Un grupo restaurantero que por la naturaleza de su negocio cuenta con una plantilla significativa, había tenido problemas con el control y registro de expedientes de sus empleados, esto ya se había reflejado en problemas legales pues al ser una empresa de alta rotación ya había perdido demanda de ex colaboradores, al tener expedientes incompletos (falta de contratos y documentos, renuncias mal elaboradas, contratos mal firmados, entre otros).<br>Con Orión Consultores este problema desapareció y actualmente se tiene un control del 100% de los expedientes y éstos se encuentran perfectamente digitalizados y administrados por nosotros.<br>Adicionalmente, sus procesos de altas y bajas de personal son ejecutados por profesionales lo que le ha evitado al cliente el tener problemas por documentación incompleta o mal elaborada. </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   
+      <div class="modal fade" id="myModal4" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Agencia de Viajes</h4>
+        </div>
+        <div class="banner_modal4">
+        </div>
+        <div class="modal-body">
+          <p class="col-md-">Uno de nuestros clientes del ramo de seguridad cuenta con un 80% de su plantillas en el área operativa, es decir, elementos de seguridad, ello resulta en una muy alta rotación de estos elementos. Con la ayuda de Orión Consultores se pudo disminuir de forma significativa el número de personas que la empresa tenía dedicados en su área administrativa simplemente para generar altas y bajas en el IMSS. Esta disminución le permitió al cliente poderse concentrar y mejorar su área de reclutamiento, realizando un filtrado más profundo de candidatos durante el proceso de selección, lo que se ha reflejado en una disminución significativa de la rotación de personal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+    
 
     <!-- Footer Main /- -->
     <!-- JQuery v1.11.3 -->
