@@ -474,6 +474,8 @@
 	-moz-transition: all 1s ease 0s;
 	-o-transition: all 1s ease 0s;
 }
+
+
 .introduction-block:hover {
 	opacity: 0.9;
 }

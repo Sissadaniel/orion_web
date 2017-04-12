@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Boletín -Orión Consultores</title>
+    <title>Boletín - Orión Consultores</title>
 
     <!-- Standard Favicon -->
     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
@@ -55,43 +55,55 @@
     <!-- Loader /- -->
 
     <!-- Header -->
-         <div id="includedContent2"></div>
+    <div id="includedContent2"></div>
     <!-- Header /- -->
 
     <!-- Blog News -->
     <div class="container-fluid eventlist blog upcoming-event latest-blog no-padding">
-             <div class="marg_top"></div>
+        <div class="marg_top"></div>
         <div class="container">
-             <div class="marg_top"></div>
-             
+            <div class="marg_top"></div>
             <div class="row">
-                 <div class="marg_top"></div>
+                <div class="marg_top"></div>
                 <div class="col-md-2"></div>
                 <div class="col-md-8 col-sm-6 col-xs-6 content-area">
                     <div class="row">
                         <div class="col-md-12 col-sm-10 col-xs-6 blog-box">
                             <article class="type-post">
                                 <div class="entry-cover">
-                                    <a href="blogpost-page.html"><img src="images/blog1.jpg" alt="blog" width="297" height="298" /></a>
+                                    <a href="blogpost-page.html"><img src="../images/custom/boletin_abril.png" alt="blog" width="297" height="298" /></a>
                                 </div>
                                 <div class="entry-block">
                                     <div class="entry-meta">
                                         <div class="post-date">
-                                            <a href="#" title=""><i class="fa fa-calendar" aria-hidden="true"></i><span>10 Feb, 2016 </span></a>
+                                            <a href="#" title=""><i class="fa fa-calendar" aria-hidden="true"></i><span> Abril, 2017 </span></a>
                                         </div>
                                         <div class="post-share">
-                                            <a href="#" title="Share"><i class="fa fa-download" aria-hidden="true"></i></a><span><a href="#" title="Share">Descargar Boletín</a></span>
+                                            <a href="boletines/boletin_abril_2017.pdf" download title="Share"><i class="fa fa-download" aria-hidden="true"></i></a><span><a href="#" title="Share">Descargar Boletín</a></span>
                                         </div>
                                     </div>
                                     <div class="entry-title">
-                                        <a href="blogpost-page.html" title="We know Flipper lives in a world full of wonder flying there under under the sea">
-                                            <h3>We know Flipper lives in a world full of wonder flying there under under the sea</h3>
-                                        </a>
+                                        <div title="We know Flipper lives in a world full of wonder flying there under under the sea">
+                                            <h3> Temas a tratar</h3>
+                                        </div>
                                     </div>
                                     <div class="entry-content">
-                                        <p>Flatnin' the hills Someday the mountain might get ‘em but the law never will! Makin their way the only way how. Love life's sweetest reward Let it flow it floats.</p>
+                                            <ul>
+                                            <li>
+                                               PTU pagada superior a la utilidad: ¿Generar pérdida fiscal amortizable? 
+                                            </li>
+                                            <li>
+                                               Mobbing
+                                            </li>
+                                            <li>
+                                               ¿Qué es lo que diferencia a un buen líder de un gran líder?
+                                            </li>
+                                        </ul>
                                     </div>
-                                    <a href="#" class="learn-more" title="Learn More">Leer más</a>
+
+
+
+                                    <a href="/boletines/boletin_abril_2017.pdf" class="learn-more" title="Learn More">Leer más</a>
                                 </div>
                             </article>
                         </div>
@@ -115,7 +127,7 @@
     <!-- Latest News /- -->
 
 
-     <div id="includedContent"></div>
+    <div id="includedContent"></div>
 
     <!-- JQuery v1.11.3 -->
     <script src="js/jquery.min.js"></script>
@@ -129,21 +141,21 @@
     <!-- Library - Google Map API -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCn3Z6i1AYolP3Y2SGis5qhbhRwmxxo1wU"></script>
     <script src="js/functions.js"></script>
-    
-       <script> 
-    $(function(){
-      $("#includedContent").load("footer.html"); 
-    });
-    </script> 
-    
-    <script> 
-    $(function(){
-      $("#includedContent2").load("header.html", function () {
-          var a = $('.boletin')
-    console.log(a)
-    a.addClass('active')
-      }); 
-    });
-    </script> 
+
+    <script>
+        $(function() {
+            $("#includedContent").load("footer.html");
+        });
+    </script>
+
+    <script>
+        $(function() {
+            $("#includedContent2").load("header.html", function() {
+                var a = $('.boletin')
+                console.log(a)
+                a.addClass('active')
+            });
+        });
+    </script>
 </body>
 </html>
