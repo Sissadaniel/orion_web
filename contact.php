@@ -8,7 +8,7 @@
  * The script will try to use PHP's mail() function,
  * so if it is not properly configured it will fail silently (no error).
  */
-$mailTo     = 'email@example.com';
+$mailTo     = 'matias.rodgian@gmail.com';
 
 /**
  * Set the message that will be shown on success
