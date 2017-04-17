@@ -1494,6 +1494,8 @@ a {
     .container {
         width: 1200px;
     }
+    
+
 }
 
 
@@ -1508,6 +1510,7 @@ a {
     .footer-main .widget_newsletter ul li {
         margin-right: 6px;
     }
+    
 }
 
 
@@ -1591,6 +1594,8 @@ a {
     .footer-menu .ow-navigation .nav.navbar-nav .dropdown-menu li:hover>a {
         color: #ececec;
     }
+    
+
 }
 
 
@@ -1610,6 +1615,8 @@ a {
         padding-top: 30px;
         padding-bottom: 30px;
     }
+    
+            
 }
 
 
@@ -1645,6 +1652,8 @@ a {
 /* - max-width: 479 */
 
 @media (max-width: 479px) {
+    
+    
     /* - Top Header */
     .top-header .col-xs-6 {
         width: 100%;
@@ -1982,9 +1991,7 @@ background-image: url(images/custom/back_parallax1.png);
 padding: 100px
 }
 
-.disp_flex {
- display: table-cell;
-}
+
 
 .flex_center {
    
