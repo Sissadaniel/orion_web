@@ -13,17 +13,17 @@ $mailTo     = 'matias.rodgian@gmail.com';
 /**
  * Set the message that will be shown on success
  */
-$successMsg = 'Thank you, mail sent successfuly!';
+$successMsg = 'Gracias por su mensaje. En breve nos pondremos en contacto con usted.';
 
 /**
  * Set the message that will be shown if not all fields are filled
  */
-$fillMsg    = 'Please fill all fields!';
+$fillMsg    = 'Por favor llene todos los campos.';
 
 /**
  * Set the message that will be shown on error
  */
-$errorMsg   = 'Hm.. seems there is a problem, sorry!';
+$errorMsg   = 'Ocurrió un error al enviar su mensaje. Por favor, intente más tarde.';
 
 /**
  * DO NOT EDIT ANYTHING BELOW THIS LINE, UNLESS YOU'RE SURE WHAT YOU'RE DOING
@@ -102,8 +102,17 @@ if(
 		$success = @mail($mailTo, $_POST['contact-email'], $msg, 'From: ' . $_POST['contact-name'] . '<' . $_POST['contact-email'] . '>');
 		
 		if ($success) {
-			$json_arr = array( "type" => "success", "msg" => $successMsg );
-			echo json_encode( $json_arr );
+
+      echo "<style>";
+      include 'success_message.css';
+      echo "</style>";
+      echo "<img src=\"images/custom/5f87ca_21c878b2ee434039926b293ef1bca0e5.png\" alt=\"logo\" width=\"360\" height=\"auto\">";
+      echo "<div class=\"success__message\"><h1>$successMsg</h1></div>";
+      echo "<a href=\"index.html\">Inicio</a>";
+
+			//$json_arr = array( "type" => "success", "msg" => $successMsg );
+			//echo json_encode( $json_arr );
+
 		} else {
 			$json_arr = array( "type" => "error", "msg" => $errorMsg );
 			echo json_encode( $json_arr );

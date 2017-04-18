@@ -50,8 +50,12 @@
 
 /* ## Global */
 
+body, html {
+    overflow-x: hidden;
+}
+
 body {
-    font-family: 'Avenir', sans-serif;
+    font-family: 'Avenir', 'Nunito', sans-serif;
     font-size: 15px;
     color: #000;
     overflow-x: hidden;
@@ -134,7 +138,7 @@ a {
 .block-title {
     text-transform: uppercase;
     letter-spacing: 1.12px;
-    font-family: 'Avenir', sans-serif;
+    font-family: 'Avenir', 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 16px;
     margin: 0 0 18px 0;
@@ -159,7 +163,7 @@ a {
     font-weight: 600;
     letter-spacing: 0.9px;
     line-height: 28px;
-    font-family: 'Avenir', sans-serif;
+    font-family: 'Avenir', 'Nunito', sans-serif;
     padding-bottom: 30px;
     word-wrap: break-word;
 }
@@ -167,7 +171,7 @@ a {
 .section-header span {
     font-size: 18px;
     letter-spacing: 2.88px;
-    font-family: 'Avenir', sans-serif;
+    font-family: 'Avenir', 'Nunito', sans-serif;
     font-weight: 600;
     font-style: italic;
     color: #f0f;
@@ -292,7 +296,7 @@ a {
 
 .page-banner .banner-content h3 {
     color: #fff;
-    font-family: 'Avenir', sans-serif;
+    font-family: 'Avenir', 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 22px;
     letter-spacing: 1.1px;
@@ -311,7 +315,7 @@ a {
 
 .page-banner_training .banner-content h3 {
     color: #fff;
-    font-family: 'Avenir', sans-serif;
+    font-family: 'Avenir', 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 22px;
     letter-spacing: 1.1px;
@@ -906,7 +910,7 @@ a {
 .top-header .logo-block a h3 {
     color: #29363e;
     display: block;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Avenir', 'Nunito', sans-serif;
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 1.36px;
@@ -929,7 +933,7 @@ a {
     border-radius: 30px;
     color: #fff;
     display: inline-block;
-    font-family: "Myriad Pro Regular";
+    font-family: 'Avenir', 'Nunito', sans-serif;
     font-size: 12px;
     letter-spacing: 2.4px;
     line-height: 28px;
@@ -1113,7 +1117,7 @@ a {
     height: 0;
     margin: 0;
     z-index: 11;
-    font-family: 'Avenir', sans-serif;
+    font-family: 'Avenir', 'Nunito', sans-serif;
     font-size: 16px;
     color: #000;
     -webkit-transition: width 0.3s;
@@ -1198,7 +1202,7 @@ a {
 
 .footer-main .widget ul li a {
     color: #fff;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Avenir', 'Nunito', sans-serif;
     font-size: 13px;
     line-height: 30px;
     letter-spacing: 0.39px;
@@ -1265,7 +1269,7 @@ a {
     margin-left: 20px;
     color: #fff;
     font-size: 15px;
-    font-family: 'Avenir', sans-serif;
+    font-family: 'Avenir', 'Nunito', sans-serif;
     padding-right: 40px;
     line-height: 24px;
 }
@@ -1294,7 +1298,7 @@ a {
 
 .footer-main .widget_newsletter p {
     color: #a4b0b6;
-    font-family: 'Avenir', sans-serif;
+    font-family: 'Avenir', 'Nunito', sans-serif;
     margin-top: 12px;
     padding-right: 15px;
 }
@@ -1316,7 +1320,7 @@ a {
     font-size: 10px;
     letter-spacing: 2px;
     line-height: 24px;
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Avenir', 'Nunito', sans-serif;
     z-index: 1;
 }
 
@@ -1324,7 +1328,7 @@ a {
     background-color: #ececec;
     font-size: 18px;
     text-transform: uppercase;
-    font-family: 'Hind', sans-serif;
+    font-family: 'Avenir', 'Nunito', sans-serif;
     border-radius: 0;
     color: #0a8eff;
     line-height: 24px;
@@ -1444,7 +1448,7 @@ a {
     color: #a4b0b6;
     font-size: 12px;
     letter-spacing: 0.36px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Avenir', 'Nunito', sans-serif;
     font-weight: 400;
 }
 
@@ -1751,7 +1755,7 @@ a {
 
 .frase_8 {
     text-align: center;
-    font-family: 'Avenir';
+    font-family: 'Avenir', 'Nunito', sans-serif;
     font-size: 26px;
     padding: 20px 15px 20px 15px
 }
@@ -1778,7 +1782,7 @@ a {
     text-align: center;
     font-size: 20px;
     padding: 20px 10px 20px 10px;
-    font-family: 'Avenir';
+    font-family: 'Avenir', 'Nunito', sans-serif;
 }
 
 .minh_training {
@@ -1826,7 +1830,7 @@ a {
     text-align: center;
     margin: 10px 10px 10px 10px;
     font-size: 50px;
-    font-family: 'Avenir';
+    font-family: 'Avenir', 'Nunito', sans-serif;
     color: #444;
 }
 
@@ -1865,7 +1869,7 @@ background-image: url(images/custom/back_parallax1.png);
 }
 
 .ch3 {
-    font-family: 'Avenir';
+    font-family: 'Avenir', 'Nunito', sans-serif;
     font-size: 20px;
     font-weight: 500;
 }
