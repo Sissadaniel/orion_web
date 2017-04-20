@@ -1616,6 +1616,11 @@ a {
         padding-bottom: 30px;
     }
     
+        .anuncio_frase {
+    font-size: 15px !important;
+            padding: 10px 40px 10px 40px !important
+}
+
             
 }
 
