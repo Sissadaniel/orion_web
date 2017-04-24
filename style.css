@@ -1839,7 +1839,7 @@ a {
     margin: 10px 10px 10px 10px;
     font-size: 50px;
     font-family: 'Avenir','Nunito';
-    color: #444;
+    color: #fff;
 }
 
 .img_block {
@@ -2129,4 +2129,13 @@ box-shadow: 0px 17px 12px -9px rgba(0,0,0,0.45);
 
 .red_bg {
     background-color: crimson;
+}
+
+.training_frase {
+    text-align: center;
+    font-size: 20px;
+}
+
+.black_text {
+    color: black;
 }
