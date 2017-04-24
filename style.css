@@ -50,6 +50,11 @@
 
 /* ## Global */
 
+html, body {
+max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Avenir', sans-serif;
     font-size: 15px;
