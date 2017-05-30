@@ -110,7 +110,7 @@
         <div class="red_bg">
             <div class="row">
                 <div class="anuncio_frase" role="alert">
-                    <marquee>
+                    <marquee behavior="scroll" scrollamount="10" direction="left" width="100%">
                         <p>GASTOS POR HONORARIOS DERIVADOS DE SERVICIOS DE PSICOLOGÍA Y DE NUTRICIÓN: A partir de 2017 son una deducción personal que pueden efectuar las personas físicas al presentar su declaración anual. El servicio debe ser presentado por profesionales que cuenten con título profesional. Art. 151 fracción I LISR.</p>
                     </marquee>
                 </div>
@@ -368,6 +368,23 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCn3Z6i1AYolP3Y2SGis5qhbhRwmxxo1wU"></script>
     <script src="js/functions.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+    <script src="./js/gistfile1.js">
+        $('div.demo marquee').marquee('pointer').mouseover(function() {
+            $(this).trigger('stop');
+        }).mouseout(function() {
+            $(this).trigger('start');
+        }).mousemove(function(event) {
+            if ($(this).data('drag') == true) {
+                this.scrollLeft = $(this).data('scrollX') + ($(this).data('x') - event.clientX);
+            }
+        }).mousedown(function(event) {
+            $(this).data('drag', true).data('x', event.clientX).data('scrollX', this.scrollLeft);
+        }).mouseup(function() {
+            $(this).data('drag', false);
+        });
+    </script>
+
 
     <script>
         $(function() {
